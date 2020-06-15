@@ -1,6 +1,7 @@
 :root {
   --scale: scaleX(0);
   --opacity: opacity(0);
+  --color: dodgerblue;
 }
 
 * {
@@ -29,7 +30,7 @@ button:focus {
 
 .wrapper {
   position: relative;
-  border: 2px solid dodgerblue;
+  border: 2px solid var(--color);
   border-radius: 10px;
   padding-left: 10px;
 }
@@ -54,7 +55,7 @@ input {
   display: inline-block;
   padding: 20px;
   width: 100px;
-  background: dodgerblue;
+  background: var(--color);
   color: white;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
